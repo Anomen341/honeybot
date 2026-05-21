@@ -27,4 +27,4 @@ client.once('ready', () => {
   console.log(`Logged in as ${client.user.tag}`);
 });
 
-client.login('YOUR_BOT_TOKEN_HERE');
+client.login(process.env.TOKEN);
